@@ -1,9 +1,46 @@
 body {
     margin: 0;
-    background: pink;
+    background: lightblue;
     text-align: center;
 }
 
-#mainDiv {
-    text-align: right; margin-right: 20px;margin-left: 500px;
+#top {
+    font-style:italic;
+}
+.content {
+    border: 3px solid red;
+    padding: 20px;
+}
+.mainDiv {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.mainDiv p {
+    font-size: larger;
+}
+
+.skills {
+    width:50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+.skillsp {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    margin-left: 40px;
+    background-color: antiquewhite;
+
+}
+
+#skillitems {
+    border-radius: 40px;
+    border-style: double;
 }
