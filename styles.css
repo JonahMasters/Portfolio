@@ -8,39 +8,26 @@ body {
     font-style:italic;
 }
 .content {
-    border: 3px solid red;
     padding: 20px;
 }
-.mainDiv {
-    width: 50%;
+.child {
+    width: 720px;
     float: left;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid navy;
+    border-radius: 20px;
+    height: 400px;
+    margin: 40px;
+    
 }
 
-.mainDiv p {
+.child p {
     font-size: larger;
-}
-
-.skills {
-    width:50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid green;
-}
-
-.skillsp {
-    padding-left: 40px;
-    padding-right: 40px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: aliceblue;
-    margin-left: 40px;
-    background-color: antiquewhite;
-
 }
 
 #skillitems {
     border-radius: 40px;
     border-style: double;
+    border-color: brown;
 }
+
