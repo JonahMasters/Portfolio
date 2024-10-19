@@ -3,3 +3,7 @@ body {
     background: pink;
     text-align: center;
 }
+
+#para1 {
+    text-align: right; margin-right: 20px;margin-left: 500px;
+}
