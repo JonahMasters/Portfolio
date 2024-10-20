@@ -2,6 +2,29 @@ body {
     margin: 0;
     background: lightblue;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Full viewport height */
+}
+
+/* Main content fills the remaining space */
+.main {
+    flex: 1;
+    padding-bottom: 20px; /* Prevent overlap with footer */
+}
+
+/* Footer stays at the bottom */
+footer {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+footer p {
+    font-size: larger;
 }
 
 #top {
@@ -59,3 +82,28 @@ body {
     font-size: larger;
 }
 
+.CV {
+    padding: 20px;
+}
+
+.link {
+    width: 200px;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 725px;
+    margin-bottom: 40px;
+    background-color: brown;
+
+}
+.CV a {
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    
+}
