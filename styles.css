@@ -31,3 +31,31 @@ body {
     border-color: brown;
 }
 
+.Projects {
+    padding: 20px;
+}
+
+.Software {
+    width: 720px;
+    float: left;
+    padding: 20px;
+    border: 2px solid navy;
+    border-radius: 20px;
+    height: 180px;
+    margin: 40px;
+}
+
+.Embedded {
+    width: 720px;
+    float: left;
+    padding: 20px;
+    border: 2px solid navy;
+    border-radius: 20px;
+    height: 180px;
+    margin: 40px;
+}
+
+.Projects p {
+    font-size: larger;
+}
+
